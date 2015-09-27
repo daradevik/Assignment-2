@@ -1,0 +1,19 @@
+                                      Online pay 
+
+Use case number:
+Use case name:Online pay
+Overview:customer pay bilss online
+Type:Primary
+Actors: users,adminstrator
+Precondition:customer has selected payment option.
+Mainflow:    1.App requests to select an option
+             2.then customer selects the option(option means what bill they want                        to pay).
+             3.If the option is valid the process continues
+             4.customer need to enters the exact amount t pay.
+             5.If amount is entered the process starts and automatically pay the bill
+
+Alternative flow: 1. customer gets notifications and alerts to pay
+                  2. Then customer can automatially open the notification then the pay due will be [aid accordingly.
+
+Post condition: True.
+Crossrefernce: Validate option.
